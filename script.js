@@ -2,7 +2,7 @@
 // Global Setup
 // ===============================
 const global = {
-    currentPage: window.location.pathname,
+    currentPage: window.location.pathname.split('/').pop() || 'index.html',
     videoUrl: 'https://www.youtube.com/embed/YuTGN3HBFCA?autoplay=1&start=3015'
 };
 
