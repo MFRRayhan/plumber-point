@@ -11,9 +11,13 @@ const global = {
 // ===============================
 function highlightActiveLink() {
     const navLinks = document.querySelectorAll('.nav-link');
+    const currentPage = global.currentPage === '' ? 'index.html' : global.currentPage;
+
     navLinks.forEach((navLink) => {
         const href = navLink.getAttribute('href');
-        if (href === global.currentPage || href === './' + global.currentPage) {
+        const hrefFile = href.split('/').pop(); // শুধু ফাইল নাম
+
+        if (hrefFile === currentPage) {
             navLink.classList.add('active');
         }
     });
