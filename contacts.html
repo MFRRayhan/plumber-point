@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRF Challenge - (03 to 08)</title>
+    <link rel="icon" href="assets/img/html-5.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header class="header-section py-4 shadow-sm">
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <div class="logo">
+                    <a href="/"><img src="assets/img/logo.png" alt=""></a>
+                </div>
+
+                <div class="header-menu">
+                    <ul class="flex items-center gap-8 text-[#222222]">
+                        <li><a class="capitalize nav-link pb-1 font-medium duration-200 block border-b-2 border-transparent hover:border-b-2 hover:border-[#dd3142]" href="/">home</a></li>
+                        <li><a class="capitalize nav-link pb-1 font-medium duration-200 block border-b-2 border-transparent hover:border-b-2 hover:border-[#dd3142]" href="/about-us.html">about us</a></li>
+                        <li><a class="capitalize nav-link pb-1 font-medium duration-200 block border-b-2 border-transparent hover:border-b-2 hover:border-[#dd3142]" href="/services.html">services</a></li>
+                        <li><a class="capitalize nav-link pb-1 font-medium duration-200 block border-b-2 border-transparent hover:border-b-2 hover:border-[#dd3142]" href="/projects.html">project</a></li>
+                        <li><a class="capitalize nav-link pb-1 font-medium duration-200 block border-b-2 border-transparent hover:border-b-2 hover:border-[#dd3142]" href="/blogs.html">blogs</a></li>
+                        <li><a class="capitalize nav-link pb-1 font-medium duration-200 block border-b-2 border-transparent hover:border-b-2 hover:border-[#dd3142]" href="/contacts.html">contact</a></li>
+                        <button class="bg-[#DD3142] text-white font-bold uppercase text-xs px-2 py-3 rounded-[5px]" type="button">Request a call Back</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About US -->
+    <section class="about-us-section pt-32 pb-12">
+        <div class="container">
+            <div class="flex items-end">
+                <div class="w-1/2">
+                    <div class="text-[#EEFF06] font-black text-[44px] uppercase mb-4">contact us</div>
+                    <div class="md:w-[430px] text-white">Have questions or need assistance? We're here to help! Whether you're looking for more information about our services, need support with an existing project, or simply want to say hello — our team is ready to connect.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GET IN TOUCH -->
+    <section class="get-in-touch py-12">
+        <div class="container">
+            <div class="font-bold text-[40px] text-center text-black">Get in touch</div>
+            <form action="" class="flex flex-col">
+                <div class="flex gap-10 mt-8">
+                    <div class="flex-1">
+                        <input type="text" placeholder="Full name" required class="border-b border-[#707070] w-full pb-2 placeholder-black">
+                    </div>
+                    <div class="flex-1">
+                        <input type="text" placeholder="Email address" required class="border-b border-[#707070] w-full pb-2 placeholder-black">
+                    </div>
+                </div>
+
+                <div class="flex gap-10 mt-12">
+                    <div class="flex-1">
+                        <input type="tel" placeholder="Contact number" class="border-b border-[#707070] w-full pb-2 placeholder-black">
+                    </div>
+                    <div class="flex-1">
+                        <input type="tel" placeholder="Subject" class="border-b border-[#707070] w-full pb-2 placeholder-black">
+                    </div>
+                </div>
+                <div class="mt-12">
+                    <input type="text" placeholder="Description" class="border-b border-[#707070] w-full pb-2 placeholder-black">
+                </div>
+                <div class="flex justify-end mt-8">
+                    <button type="submit" class="uppercase bg-[#dd3142] text-white text-lg font-bold px-6 py-3 rounded-full">send a message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ADDRESS & LOCATION -->
+    <section class="section-contact bg-[#f9f9f9] p-8">
+        <div class="container">
+            <div class="flex items-center gap-16">
+                <div class="w-5/12 pr-12">
+                    <div class="">
+                        <div class="font-bold text-[#dd3142] text-lg capitalize">contact us</div>
+                        <div class="text-black text-sm">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+                    </div>
+
+                    <div class="mt-6">
+                        <div class="mb-4">
+                            <div class="font-medium text-sm text-[#dd3142]">Business hours:</div>
+                            <div class="text-sm text-black">Monday to Saturday 9:30 am - 4:30 pm</div>
+                        </div>
+    
+                        <div class="mb-4">
+                            <div class="font-medium text-sm text-[#dd3142]">Address:</div>
+                            <div class="text-sm text-black">A-67 south Ex Delhi-11002</div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="font-medium text-sm text-[#dd3142]">Email:</div>
+                            <div class="text-sm text-black">abc@abc.com</div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="font-medium text-sm text-[#dd3142]">Phone:</div>
+                            <div class="text-sm text-black">1800 - 458495-4455</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-7/12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29131.62504958883!2d91.43524870258825!3d24.120719863018444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753e3a45f9c00b1%3A0xb3593b787b0ff890!2sShajek%20Hill%20National%20Park%2C%20Madhobpur%2C%20Hobigonj.!5e0!3m2!1sen!2sbd!4v1745315638681!5m2!1sen!2sbd" width="660" height="354" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+    <section class="blog-section py-14">
+        <div class="container">
+            <div class="text-[30px] uppercase font-medium mb-10 text-[#0e0e0e]">our recent blogs</div>
+            <div class="flex items-center gap-[80px] text-black">
+                <div class="single-blog-box min-h-80 w-full sm:w-1/2 md:w-1/3">
+                    <div class="blog-post mb-4"></div>
+                    <div class="text-xl">Top Plumbing Tips to Keep Your Home Leak-Free Year-Round</div>
+                    <div class="mt-2 text-sm">Proper plumbing maintenance prevents leaks, saves money, and keeps your home’s water systems running smoothly throughout every season of the year.</div>
+                </div>
+
+                <div class="single-blog-box min-h-80 w-full sm:w-1/2 md:w-1/3">
+                    <div class="blog-post mb-4 blog-post-2"></div>
+                    <div class="text-xl">Why Routine Plumbing Maintenance Saves You Time and Money</div>
+                    <div class="mt-2 text-sm">Scheduling routine plumbing maintenance helps detect issues early, prevents water damage, improves efficiency, and keeps your system running smoothly all year.</div>
+                </div>
+
+                <div class="single-blog-box min-h-80 w-full sm:w-1/2 md:w-1/3">
+                    <div class="blog-post mb-4 blog-post-3"></div>
+                    <div class="text-xl">Signs Your Home Needs Professional Plumbing Inspection</div>
+                    <div class="mt-2 text-sm">Leaky faucets, low water pressure, and slow drains are clear indicators that your plumbing system needs expert attention and timely inspection.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-black">
+        <div class="container">
+            <div class="flex gap-x-28">
+                <div class="w-4/12">
+                    <div class="logo mb-6">
+                        <a href="/index.html"><img src="assets/img/footer-logo.png" alt=""></a>
+                    </div>
+                    <div class="text-xs text-white max-w-[360px]">Lore Issue is simply dummy text of the printing and typesetting industry. Lore Issue has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    <div class="social-icons flex mt-4 items-center gap-x-6">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f text-[#dd3142]"></i></a>
+                        <a href="https://google.com" target="_blank"><i class="fab fa-google text-[#dd3142]"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter text-[#dd3142]"></i></a>
+                    </div>
+                </div>
+                <div class="w-8/12">
+                    <div class="flex gap-6">
+                        <div class="w-[30%]">
+                            <div class="uppercase text-[#dd3142] font-bold text-base">our services</div>
+                            <ul class="text-white mt-8 text-xs leading-7">
+                                <li><a href="">Plumber Service</a></li>
+                                <li><a href="">Bathroom Plumbing Service</a></li>
+                                <li><a href="">Kitchen Plumbing Service</a></li>
+                                <li><a href="">Roof Plumbing Service</a></li>
+                                <li><a href="">Roof Plumbing Service</a></li>
+                                <li><a href="">Kitchen Plumbing Service</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-[30%]">
+                            <div class="uppercase text-[#dd3142] font-bold text-base">contact</div>
+                            <div class="text-white mt-8">
+                                <div class="mb-6">
+                                    <div class="">1800-9938-2839</div>
+                                    <div class="text-xs">support@plumberpoint.com</div>
+                                </div>
+
+                                <div class="mb-6">
+                                    <div class="">A-507 Mandoli</div>
+                                    <div class="text-xs">A-507 Mandoli</div>
+                                </div>
+
+                                <div class="">
+                                    <div class="">Mon-Sat 9.00-15:00</div>
+                                    <div class="text-xs">Sunday CLOSED</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[40%]">
+                            <div class="uppercase text-[#dd3142] font-bold text-base">recent post</div>
+                            <div class="mt-4">
+                                <div class="single-footer-post mb-4">
+                                    <div class="flex gap-4">
+                                        <img class="w-[68px] h-[50px]" src="assets/img/blog-1.png" alt="blog post">
+                                        <div class="text-white">
+                                            <div class="text-[10px] font-medium mb-1 capitalize">Sewer Line Repair</div>
+                                            <div class="text-[8px]">Lore Issue . Simply dummy text . The printing and typesetting industry. Lore Issue has been the industry'.</div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="single-footer-post mb-4">
+                                    <div class="flex gap-4">
+                                        <img class="w-[68px] h-[50px]" src="assets/img/blog-2.png" alt="blog post">
+                                        <div class="text-white">
+                                            <div class="text-[10px] font-medium mb-1 capitalize">why routine plumbing</div>
+                                            <div class="text-[8px]">Lore Issue . Simply dummy text . The printing and typesetting industry. Lore Issue has been the industry'.</div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="single-footer-post mb-4">
+                                    <div class="flex gap-4">
+                                        <img class="w-[68px] h-[50px]" src="assets/img/blog-3.png" alt="blog post">
+                                        <div class="text-white">
+                                            <div class="text-[10px] font-medium mb-1 capitalize">signs your home</div>
+                                            <div class="text-[8px]">Lore Issue . Simply dummy text . The printing and typesetting industry. Lore Issue has been the industry'.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section -->
+    <section class="copyright-section border-t border-white py-4 bg-black">
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <div class="text-[10px] text-[#dd3142]">&copy;Copyright 2020 Techwero Systems.</div>
+                <ul class="flex gap-10 text-[#dd3142] text-[10px]">
+                    <li><a href="">Term of Services</a></li>
+                    <li><a href="">Privacy & policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
